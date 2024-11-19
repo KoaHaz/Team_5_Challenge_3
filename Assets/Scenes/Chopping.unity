@@ -5521,7 +5521,7 @@ MonoBehaviour:
   sounds:
   - name: ForestBG
     clip: {fileID: 8300000, guid: bec1cfb465efc7a41bd5ccbac5b6f2a2, type: 3}
-    volume: 0.15
+    volume: 0.125
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -10242,7 +10242,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -10284,7 +10284,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.473
+      value: 0.544
       inSlope: 0
       outSlope: 0
       tangentMode: 0
