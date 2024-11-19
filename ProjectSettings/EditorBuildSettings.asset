@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Chopping.unity
+    guid: 110f9fcef07608843917ac46365ef1e2
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f08e2d169954dfd4483a7311a521b7be, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c1af4bfe4b5993e46b193a1ef9c1fbc6, type: 2}
