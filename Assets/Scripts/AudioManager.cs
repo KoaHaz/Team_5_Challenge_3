@@ -9,6 +9,8 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager instance;
 
+    private bool golemSpawned = false;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -34,6 +36,15 @@ public class AudioManager : MonoBehaviour
 
     void Start() {
         Play("ForestBG");
+    }
+
+    private void Update() {
+        // Switch music once golem arrives
+        if (TreeTracker.treesCut >= 3 && !golemSpawned) {
+            golemSpawned = true; // Prevent restarting music
+            StopPlaying("ForestBG");
+            Play("GolemMusic");
+        }
     }
 
     // To play a sound, add this line where needed
