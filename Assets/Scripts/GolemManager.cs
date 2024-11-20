@@ -6,6 +6,7 @@ public class GolemManager : MonoBehaviour
 {
     public GameObject golem; // Reference to the golem object
     public Transform spawnPoint; // Location for the golem to appear
+    private Animator golemAnimator; // Animator reference for the golem
 
     private bool golemSpawned = false; // hides golem
 
@@ -23,5 +24,14 @@ public class GolemManager : MonoBehaviour
         golemSpawned = true; // Prevent further spawning
         golem.SetActive(true); // Show the golem
         golem.transform.position = spawnPoint.position; // Move to spawn point
+                                                        // Play the grow animation
+        if (golemAnimator != null)
+        {
+            golemAnimator.Play("GolemSpawn");
+        }
+        else
+        {
+            Debug.LogError("No Animator component found on the Golem!");
+        } 
     }
 }
