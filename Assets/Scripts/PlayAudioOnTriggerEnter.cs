@@ -25,7 +25,6 @@ public class PlayAudioOnTriggerEnter : MonoBehaviour
     }
 
     private string selSound() {
-        string selSound = soundVariants[UnityEngine.Random.Range(0, soundVariants.Length)];
-        return selSound;
+        return soundVariants[UnityEngine.Random.Range(0, soundVariants.Length)];
     }
 }
