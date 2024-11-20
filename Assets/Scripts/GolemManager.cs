@@ -32,6 +32,6 @@ public class GolemManager : MonoBehaviour
         else
         {
             Debug.LogError("No Animator component found on the Golem!");
-        } 
+        }
     }
 }
