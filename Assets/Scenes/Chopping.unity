@@ -1386,6 +1386,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 49976482}
     m_Modifications:
+    - target: {fileID: 551394989474748768, guid: ccebfc242bed46749a5dcef87dd83423, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6625984507258901549, guid: ccebfc242bed46749a5dcef87dd83423, type: 3}
       propertyPath: m_Name
       value: TreePink1 (2)
@@ -1453,6 +1457,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6625984507258901549, guid: ccebfc242bed46749a5dcef87dd83423, type: 3}
       insertIndex: -1
       addedObject: {fileID: 385385054}
+    - targetCorrespondingSourceObject: {fileID: 6625984507258901549, guid: ccebfc242bed46749a5dcef87dd83423, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 385385058}
   m_SourcePrefab: {fileID: 100100000, guid: ccebfc242bed46749a5dcef87dd83423, type: 3}
 --- !u!4 &129249825 stripped
 Transform:
@@ -2266,6 +2273,10 @@ PrefabInstance:
     - target: {fileID: 108225653778528902, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8659723387852137529, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3395,6 +3406,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8659723387852137529, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3402,6 +3417,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1664511088}
+    - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1664511092}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &275251932 stripped
 Transform:
@@ -4121,6 +4139,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &385385058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385385053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &387404453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5833,6 +5867,12 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: GolemMusic
+    clip: {fileID: 8300000, guid: 5e072ff6896748e4ab048680d8dc781e, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
   - name: AxeChop1
     clip: {fileID: 8300000, guid: 25c8f73e101416f43929924893af10d7, type: 3}
     volume: 0.734
@@ -6440,6 +6480,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1486726653596525026, guid: daf661d478fbcbf4791f00721500cb43, type: 3}
   m_PrefabInstance: {fileID: 575194718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &582174365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 522459008932986039, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
+  m_PrefabInstance: {fileID: 2001717650}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &590162250 stripped
 GameObject:
@@ -7850,6 +7895,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8659723387852137529, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7857,6 +7906,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1566325672}
+    - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1566325676}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &750611867 stripped
 Transform:
@@ -8665,6 +8717,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5336919594276004980, guid: b3cfafb3174116447b21e588ab379d0b, type: 3}
   m_PrefabInstance: {fileID: 842544359}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &846494132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 522459008932986039, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
+  m_PrefabInstance: {fileID: 1457155242}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &853077563
 PrefabInstance:
@@ -10070,7 +10127,7 @@ GameObject:
   - component: {fileID: 952433007}
   m_Layer: 0
   m_Name: Right Controller
-  m_TagString: Untagged
+  m_TagString: Axe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10842,10 +10899,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1419440612693886282, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 522459008932986039, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1208156007}
   m_SourcePrefab: {fileID: 100100000, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
 --- !u!4 &981480638 stripped
 Transform:
@@ -11158,6 +11222,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8659723387852137529, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11165,6 +11233,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1902124116}
+    - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1902124120}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &1042930786 stripped
 Transform:
@@ -12121,6 +12192,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1588417601}
+    - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1588417605}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &1168145977 stripped
 Transform:
@@ -12383,6 +12457,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8407946972163067645, guid: 92101ed146e7f434cb43a3680c518e75, type: 3}
   m_PrefabInstance: {fileID: 1204983459}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1208156003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 522459008932986039, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
+  m_PrefabInstance: {fileID: 981480637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1208156007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208156003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &1213831964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14050,6 +14145,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8659723387852137529, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14057,6 +14156,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1332064353}
+    - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1332064357}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &1332064352 stripped
 Transform:
@@ -14075,6 +14177,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1332064357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240196404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &1333375633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14208,6 +14326,10 @@ PrefabInstance:
     - target: {fileID: 5023827496289606453, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8392042334364062367, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14651,6 +14773,10 @@ PrefabInstance:
     - target: {fileID: 5614180682871777939, guid: 2196e66c52d25ac469e55fb8f4d54d4a, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5915420124596574197, guid: 2196e66c52d25ac469e55fb8f4d54d4a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15530,6 +15656,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8659723387852137529, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15673,16 +15803,39 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1419440612693886282, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 522459008932986039, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1457155247}
   m_SourcePrefab: {fileID: 100100000, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
 --- !u!4 &1457155243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 522459008932552855, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
   m_PrefabInstance: {fileID: 1457155242}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1457155247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846494132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &1482890264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16318,6 +16471,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8659723387852137529, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16325,6 +16482,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1518648123}
+    - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1518648127}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &1518648122 stripped
 Transform:
@@ -16343,6 +16503,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1518648127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171236523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &1530718724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16734,6 +16910,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1566325676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566325671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &1567322011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16871,6 +17063,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5023827496289606453, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1571019439}
+    - targetCorrespondingSourceObject: {fileID: 5023827496289606453, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1571019443}
   m_SourcePrefab: {fileID: 100100000, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
 --- !u!4 &1571019438 stripped
 Transform:
@@ -16889,6 +17084,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1571019443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571100736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1 &1588417600 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
@@ -16906,6 +17117,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1588417605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588417600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &1591549710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17490,6 +17717,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1664511092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664511087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &1680874350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17706,6 +17949,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1858320669863709889, guid: d85f77d368a7cb74d88aeccc3c5a5348, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17713,6 +17960,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 283491861412978150, guid: d85f77d368a7cb74d88aeccc3c5a5348, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1687833927}
+    - targetCorrespondingSourceObject: {fileID: 283491861412978150, guid: d85f77d368a7cb74d88aeccc3c5a5348, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1687833931}
   m_SourcePrefab: {fileID: 100100000, guid: d85f77d368a7cb74d88aeccc3c5a5348, type: 3}
 --- !u!4 &1687833926 stripped
 Transform:
@@ -17731,6 +17981,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1687833931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541232561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &1694990378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18060,6 +18326,10 @@ PrefabInstance:
     - target: {fileID: 5142532879768883847, guid: 5983c8a04c0e73047a6c860b9cd9aaad, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8682622020879398172, guid: 5983c8a04c0e73047a6c860b9cd9aaad, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19186,6 +19456,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8659723387852137529, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19196,6 +19470,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1840116314}
+    - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1840116318}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &1840116309 stripped
 Transform:
@@ -19215,6 +19492,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1840116314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358916810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
+--- !u!114 &1840116318
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19812,6 +20105,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.335
       objectReference: {fileID: 0}
+    - target: {fileID: 4211759954647305901, guid: 292c1954f8e2fd748857db06683062fb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19819,6 +20116,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1026458569961160598, guid: 292c1954f8e2fd748857db06683062fb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1898480299}
+    - targetCorrespondingSourceObject: {fileID: 1026458569961160598, guid: 292c1954f8e2fd748857db06683062fb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1898480303}
   m_SourcePrefab: {fileID: 100100000, guid: 292c1954f8e2fd748857db06683062fb, type: 3}
 --- !u!4 &1898480298 stripped
 Transform:
@@ -19837,6 +20137,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1898480303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484260764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1001 &1902070625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19932,6 +20248,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1902124120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902124115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1 &1906762020
 GameObject:
   m_ObjectHideFlags: 0
@@ -20759,6 +21091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8659723387852137529, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20766,6 +21102,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1937610611}
+    - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1937610615}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &1937610610 stripped
 Transform:
@@ -20784,6 +21123,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1937610615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594848600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1 &1940115117
 GameObject:
   m_ObjectHideFlags: 0
@@ -21630,16 +21985,39 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1419440612693886282, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 522459008932986039, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2001717655}
   m_SourcePrefab: {fileID: 100100000, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
 --- !u!4 &2001717651 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 522459008932552855, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
   m_PrefabInstance: {fileID: 2001717650}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2001717655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582174365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundVariants:
+  - AxeChop1
+  - AxeChop3
+  targetTag: Axe
 --- !u!1 &2020294756 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 283491861412978150, guid: d85f77d368a7cb74d88aeccc3c5a5348, type: 3}
