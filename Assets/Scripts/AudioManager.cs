@@ -14,9 +14,12 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        if (instance == null) {
+        if (instance == null)
+        {
             instance = this;
-        } else {
+        }
+        else
+        {
             Destroy(gameObject);
             return;
         }
@@ -24,9 +27,10 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         // Create an audio source and set vol and pitch for each sound on the AudioManager
-        foreach (Sound curSound in sounds) {
+        foreach (Sound curSound in sounds)
+        {
             curSound.source = gameObject.AddComponent<AudioSource>();
-            
+
             curSound.source.clip = curSound.clip;
             curSound.source.volume = curSound.volume;
             curSound.source.pitch = curSound.pitch;
@@ -34,13 +38,16 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    void Start() {
+    void Start()
+    {
         Play("ForestBG");
     }
 
-    private void Update() {
+    private void Update()
+    {
         // Switch music once golem arrives
-        if (TreeTracker.treesCut >= 3 && !golemSpawned) {
+        if (TreeTracker.treesCut >= 4 && !golemSpawned)
+        {
             golemSpawned = true; // Prevent restarting music
             StopPlaying("ForestBG");
             Play("GolemMusic");
@@ -49,23 +56,27 @@ public class AudioManager : MonoBehaviour
 
     // To play a sound, add this line where needed
     // FindObjectOfType<AudioManager>().Play("soundName");
-    public void Play(string soundName) {
-       Sound selSound = Array.Find(sounds, sound => sound.name == soundName);
+    public void Play(string soundName)
+    {
+        Sound selSound = Array.Find(sounds, sound => sound.name == soundName);
 
-        if (selSound == null) {
+        if (selSound == null)
+        {
             Debug.LogWarning("Sound: " + soundName + " not found.");
             return;
         }
 
-       selSound.source.Play();
+        selSound.source.Play();
     }
 
     // To stop sound, add this line where needed
     // FindObjectOfType<AudioManager>().StopPlaying("soundName");
-    public void StopPlaying(string soundName) {
+    public void StopPlaying(string soundName)
+    {
         Sound selSound = Array.Find(sounds, sound => sound.name == soundName);
 
-        if (selSound == null) {
+        if (selSound == null)
+        {
             Debug.LogWarning("Sound: " + soundName + " not found.");
             return;
         }
