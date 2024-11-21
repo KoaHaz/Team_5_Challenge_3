@@ -8021,7 +8021,7 @@ PrefabInstance:
       addedObject: {fileID: 771273384}
     - targetCorrespondingSourceObject: {fileID: 1778427119070980, guid: f2532f10600de29418d706af66b4b7d3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 771273387}
+      addedObject: {fileID: 771273391}
     - targetCorrespondingSourceObject: {fileID: 1778427119070980, guid: f2532f10600de29418d706af66b4b7d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 771273388}
@@ -8055,29 +8055,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   crossSectionMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  cutForce: 1
+  cutForce: 0.1
   interval: 1
---- !u!65 &771273387
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771273383}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.4874544, y: 0.46436638, z: 0.10936544}
-  m_Center: {x: -0.08189207, y: -0.8099957, z: -0.000047963113}
 --- !u!54 &771273388
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8105,6 +8084,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
+--- !u!64 &771273391
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771273383}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: e53c0edb812c5344698949e4671d1a2c, type: 3}
 --- !u!1 &772828952 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
