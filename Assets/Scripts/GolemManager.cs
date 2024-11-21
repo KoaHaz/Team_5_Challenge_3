@@ -13,7 +13,7 @@ public class GolemManager : MonoBehaviour
     void Update()
     {
         // Filler name "TreeTracker" with example 3 trees being the trigger for him spawing
-        if (TreeTracker.treesCut >= 3 && !golemSpawned)
+        if (TreeTracker.treesCut >= 4 && !golemSpawned)
         {
             SpawnGolem();
         }
