@@ -66,5 +66,11 @@ public class SlicingObjects : MonoBehaviour
         MeshCollider collider = slicedObject.AddComponent<MeshCollider>();
         collider.convex = true;
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
+        PlayAudioOnTriggerEnter soundFX = slicedObject.AddComponent<PlayAudioOnTriggerEnter>();
+        soundFX.soundName = "AxeChop1";
+        soundFX.targetTag = "Axe";
+        CapsuleCollider capsuleCollider = slicedObject.AddComponent<CapsuleCollider>();
+        capsuleCollider.isTrigger = true;
+
     }
 }

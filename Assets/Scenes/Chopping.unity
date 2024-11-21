@@ -1459,7 +1459,7 @@ PrefabInstance:
       addedObject: {fileID: 385385054}
     - targetCorrespondingSourceObject: {fileID: 6625984507258901549, guid: ccebfc242bed46749a5dcef87dd83423, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 385385058}
+      addedObject: {fileID: 385385062}
   m_SourcePrefab: {fileID: 100100000, guid: ccebfc242bed46749a5dcef87dd83423, type: 3}
 --- !u!4 &129249825 stripped
 Transform:
@@ -2287,7 +2287,7 @@ PrefabInstance:
       addedObject: {fileID: 427930699}
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 427930703}
+      addedObject: {fileID: 427930707}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &186848143 stripped
 Transform:
@@ -4139,7 +4139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &385385058
+--- !u!114 &385385062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4151,9 +4151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &387404453
 PrefabInstance:
@@ -4870,7 +4868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &427930703
+--- !u!114 &427930707
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4882,9 +4880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &447524588
 PrefabInstance:
@@ -7908,7 +7904,7 @@ PrefabInstance:
       addedObject: {fileID: 1566325672}
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1566325676}
+      addedObject: {fileID: 1566325680}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &750611867 stripped
 Transform:
@@ -12474,9 +12470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &1213831964
 PrefabInstance:
@@ -14189,9 +14183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &1333375633
 PrefabInstance:
@@ -14340,7 +14332,7 @@ PrefabInstance:
       addedObject: {fileID: 1335679002}
     - targetCorrespondingSourceObject: {fileID: 5023827496289606453, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1335679006}
+      addedObject: {fileID: 1335679010}
   m_SourcePrefab: {fileID: 100100000, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
 --- !u!4 &1335679001 stripped
 Transform:
@@ -14359,7 +14351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1335679006
+--- !u!114 &1335679010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14371,9 +14363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &1345327312
 PrefabInstance:
@@ -14785,6 +14775,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5614180682871777939, guid: 2196e66c52d25ac469e55fb8f4d54d4a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1628503545}
+    - targetCorrespondingSourceObject: {fileID: 5614180682871777939, guid: 2196e66c52d25ac469e55fb8f4d54d4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1628503549}
   m_SourcePrefab: {fileID: 100100000, guid: 2196e66c52d25ac469e55fb8f4d54d4a, type: 3}
 --- !u!4 &1378816439 stripped
 Transform:
@@ -15669,7 +15662,7 @@ PrefabInstance:
       addedObject: {fileID: 1451028539}
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1451028543}
+      addedObject: {fileID: 1451028547}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &1451028538 stripped
 Transform:
@@ -15688,7 +15681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1451028543
+--- !u!114 &1451028547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15700,9 +15693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1 &1452833278
 GameObject:
@@ -15813,14 +15804,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 522459008932986039, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1457155247}
+      addedObject: {fileID: 1457155251}
   m_SourcePrefab: {fileID: 100100000, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
 --- !u!4 &1457155243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 522459008932552855, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
   m_PrefabInstance: {fileID: 1457155242}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1457155247
+--- !u!114 &1457155251
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15832,9 +15823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &1482890264
 PrefabInstance:
@@ -16515,9 +16504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: 
   targetTag: Axe
 --- !u!1001 &1530718724
 PrefabInstance:
@@ -16910,7 +16897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1566325676
+--- !u!114 &1566325680
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16922,9 +16909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &1567322011
 PrefabInstance:
@@ -17096,9 +17081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: 
   targetTag: Axe
 --- !u!1 &1588417600 stripped
 GameObject:
@@ -17129,9 +17112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: 
   targetTag: Axe
 --- !u!1001 &1591549710
 PrefabInstance:
@@ -17602,6 +17583,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1628503549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628503544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundName: AxeChop1
+  targetTag: Axe
 --- !u!1001 &1640871655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17729,9 +17724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &1680874350
 PrefabInstance:
@@ -17962,7 +17955,7 @@ PrefabInstance:
       addedObject: {fileID: 1687833927}
     - targetCorrespondingSourceObject: {fileID: 283491861412978150, guid: d85f77d368a7cb74d88aeccc3c5a5348, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1687833931}
+      addedObject: {fileID: 1687833935}
   m_SourcePrefab: {fileID: 100100000, guid: d85f77d368a7cb74d88aeccc3c5a5348, type: 3}
 --- !u!4 &1687833926 stripped
 Transform:
@@ -17981,7 +17974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1687833931
+--- !u!114 &1687833935
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17993,9 +17986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &1694990378
 PrefabInstance:
@@ -18341,7 +18332,7 @@ PrefabInstance:
       addedObject: {fileID: 2072692576}
     - targetCorrespondingSourceObject: {fileID: 5142532879768883847, guid: 5983c8a04c0e73047a6c860b9cd9aaad, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2072692580}
+      addedObject: {fileID: 2072692584}
   m_SourcePrefab: {fileID: 100100000, guid: 5983c8a04c0e73047a6c860b9cd9aaad, type: 3}
 --- !u!4 &1704252157 stripped
 Transform:
@@ -19470,10 +19461,7 @@ PrefabInstance:
       addedObject: {fileID: 1840116310}
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1840116314}
-    - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1840116318}
+      addedObject: {fileID: 1840116322}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &1840116309 stripped
 Transform:
@@ -19492,7 +19480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1840116314
+--- !u!114 &1840116322
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19504,25 +19492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
-  targetTag: Axe
---- !u!114 &1840116318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358916810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1 &1860290221 stripped
 GameObject:
@@ -20150,9 +20120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: 
   targetTag: Axe
 --- !u!1001 &1902070625
 PrefabInstance:
@@ -20261,9 +20229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1 &1906762020
 GameObject:
@@ -21105,7 +21071,7 @@ PrefabInstance:
       addedObject: {fileID: 1937610611}
     - targetCorrespondingSourceObject: {fileID: 108225653778294438, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1937610615}
+      addedObject: {fileID: 1937610619}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2accafa3a5f1b40ba86cf39bcb49a7, type: 3}
 --- !u!4 &1937610610 stripped
 Transform:
@@ -21124,7 +21090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1937610615
+--- !u!114 &1937610619
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21136,9 +21102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1 &1940115117
 GameObject:
@@ -21996,14 +21960,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 522459008932986039, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2001717655}
+      addedObject: {fileID: 2001717659}
   m_SourcePrefab: {fileID: 100100000, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
 --- !u!4 &2001717651 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 522459008932552855, guid: 23bd600a3424d9e44ac451d447977c93, type: 3}
   m_PrefabInstance: {fileID: 2001717650}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2001717655
+--- !u!114 &2001717659
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22015,9 +21979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1 &2020294756 stripped
 GameObject:
@@ -22252,6 +22214,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1026458569961160598, guid: 292c1954f8e2fd748857db06683062fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1026458569961579446, guid: 292c1954f8e2fd748857db06683062fb, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -22318,6 +22284,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1026458569961160598, guid: 292c1954f8e2fd748857db06683062fb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2059046702}
+    - targetCorrespondingSourceObject: {fileID: 1026458569961160598, guid: 292c1954f8e2fd748857db06683062fb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2059046706}
   m_SourcePrefab: {fileID: 100100000, guid: 292c1954f8e2fd748857db06683062fb, type: 3}
 --- !u!4 &2059046697 stripped
 Transform:
@@ -22348,10 +22317,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
+--- !u!64 &2059046706
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034624135}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 0b3d8d7f8b41322499664c115aa6ca90, type: 3}
 --- !u!1001 &2061839325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22447,7 +22436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1475af752f104eaa87f96fb129925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2072692580
+--- !u!114 &2072692584
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22459,9 +22448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b14b230478c914595cc871ed6bc9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundVariants:
-  - AxeChop1
-  - AxeChop3
+  soundName: AxeChop1
   targetTag: Axe
 --- !u!1001 &2075444589
 PrefabInstance:
